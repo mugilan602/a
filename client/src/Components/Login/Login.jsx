@@ -16,6 +16,11 @@ const Login = ({ onUserData }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
+            try {
+                
+            } catch (rr) {
+             console.log(rr);   
+            }
             const url = "http://localhost:8080/api/auth";
             const response = await axios.post(url, data);
             const token = response.data.token; // Access token property from response
