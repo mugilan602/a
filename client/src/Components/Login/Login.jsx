@@ -33,7 +33,7 @@ const Login = ({ onUserData }) => {
 
     return (
         <div>
-            <Navbar2 />
+           
             <section className="bg-gray-50 min-h-screen flex items-center justify-center">
                 <div className="bg-gray-100 flex object-cover rounded-2xl shadow-lg max-w-3xl p-5 items-center ">
                     <div className="sm:w-1/2 px-16">
